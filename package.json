@@ -1,0 +1,38 @@
+{
+    "name": "youseetheme",
+    "displayName": "YouSeeTheme",
+    "version": "0.0.1",
+    "description": "Color scheme for Visual Studio Code",
+    "publisher": "Güner Yildirim",
+    "author": {
+        "name": "Güner Yildirim",
+        "url": "http://github.com/liltoto"
+    },
+    "keywords": [
+        "visual studio code",
+        "themes",
+        "color theme",
+        "theme",
+        "extension"
+    ],
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/liltoto/vscode-yousee.git"
+    },
+    "bugs": {
+        "url": "https://github.com/liltoto/vscode-yousee/issues"
+    },
+    "contributes": {
+        "themes": [{
+            "label": "YouSee",
+            "uiTheme": "vs-dark",
+            "path": "./themes/yousee.json"
+        }]
+    }
+}
