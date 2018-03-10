@@ -3,7 +3,7 @@
     "displayName": "YouSeeTheme",
     "version": "0.0.1",
     "description": "Color scheme for Visual Studio Code",
-    "publisher": "Güner Yildirim",
+    "publisher": "liltoto",
     "author": {
         "name": "Güner Yildirim",
         "url": "http://github.com/liltoto"
@@ -34,5 +34,6 @@
             "uiTheme": "vs-dark",
             "path": "./themes/yousee.json"
         }]
-    }
+    },
+    "icon": "logo.png"
 }
